@@ -126,9 +126,6 @@ div.testimonial p{
 /* desktop version finish  */
 
 
-
-
-
 @media (min-width: 768px) {
   main.all {
     grid-template-rows: 1fr 1fr;
