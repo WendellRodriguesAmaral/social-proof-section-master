@@ -127,13 +127,39 @@ div.testimonial p{
 
 
 @media (min-width: 768px) {
+  body{
+    padding: 0 7rem;
+  }
+
   main.all {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr; /* auto para ficar com a altura flexivel  */
     grid-template-columns: 1fr 1fr;
+  }
+
+  section.description{
+    padding:0 4.5rem;
+  }
+
+  div.descriptionTitle{
+    text-align: left;
+  }
+
+  p.descriptionText{
+    text-align: left;
+    font-size:.8rem;
+    line-height:2;
   }
 
   section.testimonials {
     grid-column-start: 1;
     grid-column-end: 3;
+    display:flex;
   }
+  
+
+
+
+
+
+
 }
